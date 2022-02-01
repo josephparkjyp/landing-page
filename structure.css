@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .content-one, .content-two, .content-three, .content-four, .footer {
+    padding: 0% 15%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.content-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content-one h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 50px;
+}
+
+.content-one p {
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+.content-two {
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.content-two h2 {
+    text-align: center;
+}
+
+.content-two-images {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    gap: 75px;
+}
+
+.content-two p {
+    margin: 5px;
+    padding: 0;
+}
+
+.one, .two, .three, .four {
+    width: 150px;
+}
+
+.content-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+}
+
+#quote {
+    flex: 0 0 825px;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: center;
+}
+
+#quote-author {
+    flex: 0 0 750px;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 125px;
+}
+
+.content-four {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px 200px;
+    padding: 50px 0px;
+}
+
+.content-four h2, .content-four p {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
